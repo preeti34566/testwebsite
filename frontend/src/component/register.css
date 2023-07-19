@@ -1,0 +1,50 @@
+.register-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.register-page h2 {
+  font-size: 1.8rem;
+  /* margin-bottom: 1.5rem; */
+}
+
+.register-page form {
+  width: 250px;
+}
+
+.register-page .form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.register-page label {
+  font-size: 0.9rem;
+}
+
+.register-page input {
+  width: 100%;
+  padding: 0.2rem;
+  font-size: 1rem;
+  border: 1px solid #080808;
+  border-radius: 4px;
+}
+
+.register-page button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border:rgb(17,69,17);
+  cursor: pointer;
+  color: #fff;
+  width:103%;
+  background-color:rgb(17, 69, 17);
+}
+
+/* .register-page p {
+  margin-top: 1rem;
+} */

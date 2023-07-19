@@ -1,0 +1,90 @@
+.quiz-container {
+    margin: 20px;
+    text-align: left;
+    padding: 0px;
+  }
+  h1{
+/* background-color:rgb(119, 120, 121); */
+color:rgb(13, 57, 13) ;
+  }
+  .question {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .options {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .options li {
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .selected-option {
+    font-weight: bold;
+  }
+  .score-message {
+    font-size: 24px;
+    font-weight: bold;
+    color:rgb(13, 57, 13) ;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+.error-message {
+  font-size: 24px;
+  font-weight: bold;
+  margin:50px;
+  color:rgb(13, 57, 13) ;
+
+}
+.submit-button{
+  border-color:rgb(13, 57, 13) ;
+  color:white;
+  background-color:rgb(13, 57, 13) ;
+  border-radius:10px;
+  font-size: large;
+  padding: 15px;
+}
+/* Add this CSS code to your existing test.css file or create a new CSS file */
+
+
+
+
+
+/* Custom checkbox checked styles */
+.options li input[type="checkbox"] {
+  position: relative;
+  opacity: 5; /* Set opacity to 1 to make the checkbox visible */
+  cursor: pointer;
+  width: 20px; /* Adjust the width to make the checkbox bigger */
+  height: 20px; /* Adjust the height to make the checkbox bigger */
+}
+
+
+
+
+/* Custom checkbox hover styles */
+.options li input[type="checkbox"]:hover + .checkmark {
+border: #042d1b; /* Apply the border color on hover */
+}
+
+
+
+
+.options li input[type="checkbox"]:checked + .checkmark::after {
+  display: block;
+  left: 7px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  background-color: solid rgb(203, 8, 8);
+  border: red;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+

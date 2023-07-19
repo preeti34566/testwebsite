@@ -1,0 +1,53 @@
+.concept-brush-up-page {
+    text-align: center;
+  }
+ 
+  h1{
+    font-size: 40px;
+    color:rgb(17,69,17)
+  }
+  h2{
+    font-size: 40px;
+    color:rgb(17,69,17)
+  }
+
+  .concept-brush-up-page h1 {
+    font-size: 34px;
+    margin-bottom: 20px;
+  }
+  
+  .concept-brush-up-page ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .concept-brush-up-page li {
+    margin-bottom: 10px;
+  }
+  
+  .concept-brush-up-page li a {
+    display: block;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-decoration: none;
+    color:rgb(5, 29, 5);
+    transition: background-color 0.3s;
+  }
+  
+  .concept-brush-up-page li a:hover {
+    background-color:rgb(17,69,17);
+    color:#ccc
+  }
+  
+  .concept-brush-up-page h2 {
+    font-size: 27px;
+    margin-bottom: 10px;
+  }
+  
+  .concept-brush-up-page p {
+    font-size: 26px;
+    margin-bottom: 20px;
+
+  }
+  
